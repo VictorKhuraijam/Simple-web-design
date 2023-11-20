@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    font-family: 'Segoe UI';
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 80px;
+    width: 40vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 213px;
+}
+
+.container {
+    height: 80px;
+    width: 60vw;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    color: black;
+    padding-bottom: 20px;
+
+
+}
+
+.lang {
+    height: 80px;
+    width: 10vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang img {
+    margin-right: 65px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li span {
+    padding: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.3em;
+    margin-top: 60px;
+    /* background-color: aqua; */
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 200px 10px 200px;
+    font-weight: 400;
+    /* background-color: blue; */
+
+}
+
+.button {
+    text-align: center;
+
+
+    margin-top: 20px;
+}
+
+.button button {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: 12px;
+    color: aliceblue;
+    background-color: #00b6d1;
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+
+    align-items: center;
+    margin-top: 65px;
+}
+
+.head img {
+    margin-left: 191px;
+    margin-right: -163px;
+}
+
+.head h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.head h3 small {
+    font-size: 15px;
+}
+
+.main-part {
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    margin: 50px 150px;
+
+}
+
+.main-part .box {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 270px;
+}
+
+.lange{
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0 50px 0;
+    line-height: 5px;
+}
+
+
+.btn-blue{
+    margin-left: 5px;
+    padding: 12px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 12px;
+    background-color: #00b6d1;
+    color: white;
+    font-size: 12px;
+
+}
+
+.btn-green{
+    margin-left: 5px;
+    padding: 12px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 12px;
+    background: #5cb85c;
+    color: white;
+    font-size: 12px;
+
+}
+
+@media screen and (max-width: 1145px) {
+    .main-part{
+        grid-template-columns: 1fr;
+    }
+}
